@@ -1,0 +1,20 @@
+{
+    "name": "safedriver-api",
+    "version": "1.0.0",
+    "description": "Back-end for SafeDriver App",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "init-database": "node scripts/initDatabase.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "morgan": "^1.10.0",
+        "mysql2": "^1.5.3",
+        "sequelize": "^6.31.1",
+        "signale": "^1.4.0"
+    }
+}
